@@ -1,4 +1,7 @@
 /*-- contact --*/
+a {
+  text-decoration: none;
+}
 .address-info {
 	padding: 1em 2em;
 }

@@ -11,6 +11,9 @@
     width: 100%;
     z-index: -1;
   }
+  a {
+  text-decoration: none;
+}
   
   .inner_banner {
     background: url('../images/sections/IMG_20200201_085009\ \(1\).jpg')no-repeat center;

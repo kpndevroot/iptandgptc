@@ -9,6 +9,9 @@ body{
     background: #0E2431 !important;
    
 }
+a {
+  text-decoration: none;
+}
 
 /*-- team --*/
 

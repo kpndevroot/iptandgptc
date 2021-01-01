@@ -3,7 +3,9 @@
   --btn-clr: #17a2b8;
   --theme-color-light: #17a3b82f;
 }
-
+a {
+  text-decoration: none;
+}
 .inner_banner:after {
   background-color: #000;
   content: "";

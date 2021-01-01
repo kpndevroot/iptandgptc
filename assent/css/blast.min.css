@@ -8,6 +8,9 @@ body
 {
     background:#FEFBFD;
 }
+a {
+  text-decoration: none;
+}
 .blast-box{
     position:fixed;
     width:300px;
