@@ -3,7 +3,7 @@
 /*-- counter --*/
 
 .stats_test {
-  background: url(../images/sections/lib_student.jpg) center no-repeat;
+  background: url(../images/sections/iptcounter.jpg) center no-repeat;
   background-attachment: fixed;
   font-family: "Poppins", sans-serif !important;
 }
@@ -18,7 +18,7 @@
   font-size: 3em;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #17a2b8;
+  color: #1ac0daa6;
   line-height: 2em;
 }
 
