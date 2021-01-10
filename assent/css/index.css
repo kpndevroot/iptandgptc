@@ -724,6 +724,15 @@ footer .footer-copyright {
   box-shadow: 0px 1px 8px 0px black;
   z-index: 999;
 }
+.gov-link {
+  visibility: hidden;
+}
+
+@media (min-width: 1024px) {
+  .gov-link {
+    visibility: visible;
+  }
+}
 #go-top i {
   width: 30px;
   height: 30px;
