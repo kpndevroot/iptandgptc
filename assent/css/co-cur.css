@@ -209,6 +209,7 @@
   }
   .team-img {
     position: relative;
+    height: 18rem;
   }
   .team-img:hover .overlay {
     cursor: pointer;
