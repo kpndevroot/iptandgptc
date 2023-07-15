@@ -51,8 +51,8 @@
   <body>
     <!-- Notification  button start -->
     <div class="blast-box">
-      <div class="blast-icon">
-        <img src="assent/images/logos/bell-notify.gif" alt="" />
+      <div class="blast-icon" id="blast-btn">
+        <img src="/assent/images/logos/bell-notify.gif" alt="" />
       </div>
       <div class="blast-frame">
         <div class="scrolling">
@@ -60,24 +60,15 @@
             Welcome to Institute of Printing Technology & Goverment Polytechnic
             College Shoranur official Website. <br /><br />
             <br />
-            <a
-              style="color: white; text-decoration: none"
-              href="https://drive.google.com/uc?export=download&id=1NKArPrHYun01Ce_7Z9b2IJTOa2lxUAhq"
-              >Quotations for supply of Books to library under book bank scheme
-              are invited
-              <span style="color: red; font-weight: 200"
-                >_for download click here_</span
-              ></a
-            ><br /><br />
-            <a
+            <br /><br />
+            <!-- <a
               style="color: white; text-decoration: none"
               href="https://drive.google.com/uc?export=download&id=1CXDuzY0z9X4XHdoHDl3a_PnkFIxp8hx_"
               >Quotation for the purchase of Napkin incinerator to ladies
               friendly building are invited
               <span style="color: red; font-weight: 200"
                 >_for download click here_</span
-              ></a
-            >
+              ></a> -->
           </h2>
 
           <!-- <p class="blast-custom-colors">Custom colors</p>
@@ -1237,6 +1228,15 @@
       window.addEventListener("scroll", function () {
         bg.style.backgroundSize = 140 - +window.pageYOffset / 12 + "%";
       });
+    </script>
+    <script>
+      window.onload = function () {
+        document.getElementById("blast-btn").click();
+        var scriptTag = document.createElement("script");
+        scriptTag.src =
+          "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js";
+        document.getElementsByTagName("head")[0].appendChild(scriptTag);
+      };
     </script>
   </body>
 </html>
