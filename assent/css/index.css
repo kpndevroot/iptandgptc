@@ -71,10 +71,10 @@ nav .navbar-brand image {
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-  font-size: 1.1em;
+  font-size: 0.9em;
   text-transform: uppercase;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   transition: 0.3s all ease-in-out;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
@@ -100,24 +100,21 @@ nav .navbar-brand image {
   transition: 0.3s all ease-in-out;
 }
 
-.logo2{
+.logo2 {
   position: relative;
   width: 7rem;
   margin-right: 1rem;
   display: none;
-  
-
 }
-.logo2 img{
+.logo2 img {
   width: 100%;
   height: 4rem;
 }
-@media (min-width:1024px){
-  .logo2{
+@media (min-width: 1024px) {
+  .logo2 {
     display: block;
   }
 }
-
 
 /* nav end */
 
@@ -134,7 +131,8 @@ nav .navbar-brand image {
       rgba(0, 0, 0, 0.541) 0%,
       rgba(0, 2, 7, 0.342) 100%
     ),
-    url("../images/portfolio/p9.jpeg") center no-repeat;
+    /* url("../images/portfolio/p9.jpeg") center no-repeat; */
+      url("../images/sections/floweript.jpg") center no-repeat;
 
   min-height: 91vh;
   background-size: 140%;
@@ -211,7 +209,6 @@ nav .navbar-brand image {
 /* events start */
 
 .event {
-  
   position: absolute;
   margin-top: 54rem;
   font-size: 20px;
@@ -223,7 +220,7 @@ nav .navbar-brand image {
 }
 .event marquee {
   padding-top: 0.93rem;
-  color: #fff ;
+  color: #fff;
   font-style: normal;
 }
 
